@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+:root{
+    --background:#342E37;
+    --letters: #52B788;
+}
+
+body{
+    background-color: #342E37;
+    color: var(--lett);
+}

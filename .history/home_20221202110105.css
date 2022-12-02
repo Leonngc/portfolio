@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+  
+:root{
+    --background:#342E37;
+    --letters: #52B788;
+    --font-texts: font-family: 'Ubuntu Condensed', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--background);
+    color: var(--letters);
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #2e2930;
+    height: 12vh;
+}
+
+header > h1{
+    font-family:'PT Sans Narrow', sans-serif;
+    margin-left: 0px;
+    padding: 20px;
+    padding-right: 100px;
+    background-color: black;
+}
+
+ ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul > li{
+    list-style: none;
+    margin: 10px;
+}
+
+li > a{
+    text-decoration: none;
+    color: var(--letters);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5em;
+    color: #498467;
+    padding: 5px;
+}
+
+.menu{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+li > a:hover{
+    text-decoration: underline;
+    color: #498480;
+}
+
+section{
+    width: 40%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+section > h2{
+    font-family: verdana, sans-serif;
+    font-size: 2.1em;
+    text-transform: uppercase;
+}
+
+section > p{
+    bo
+    padding: 30px;
+    background-color: #131213;
+    color: #f2f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .1em;
+    text-align: left;
+    text-indent: 15px;
+}

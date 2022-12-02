@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+:root{
+    --background:#342E37;
+    --letters: #52B788;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--background);
+    color: var(--letters);
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    s
+    background-color: #2e2930;
+}
