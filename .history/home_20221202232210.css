@@ -81,22 +81,20 @@ li > a:hover{
 }
 
 
-.text{
-    margin-left: 200px;
+section.text{
+    margin: 0 auto;
     margin-top: 40px;
     width: 500px;
-    height: 100%;
-    padding: 0;
-    box-shadow: 2px 2px 1px black;
+   
 }
 
-div > h2{
+section > h2{
     font-family: verdana, sans-serif;
     font-size: 1.6em;
     text-transform: uppercase;
 }
 
-div > p{
+section > p{
     border-radius: 10px;
     padding: 30px;
     background-color: #131213;
@@ -116,21 +114,7 @@ div > p{
     li > a{
         font-size: 1.2em;
     }
-    .text{
+    section{
         width: 320px;
-    }
-
-    .circle{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: 30px ;
-    
-    background-image: url(imgs/foto-perfil.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    
     }
 }

@@ -82,10 +82,9 @@ li > a:hover{
 
 
 .text{
-    margin-left: 200px;
+    margin-
     margin-top: 40px;
     width: 500px;
-    height: 100%;
     padding: 0;
     box-shadow: 2px 2px 1px black;
 }
@@ -118,19 +117,5 @@ div > p{
     }
     .text{
         width: 320px;
-    }
-
-    .circle{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: 30px ;
-    
-    background-image: url(imgs/foto-perfil.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    
     }
 }
